@@ -1,11 +1,10 @@
-```markdown
-# Payments System: Scalable Design for Millions of Transactions
+# **Payments System: Scalable Design for Millions of Transactions**
 
 This repository contains the architecture, design principles, and implementation strategies for building a **payments system** capable of handling **millions of transactions per day**. The system is designed to ensure **scalability**, **resiliency**, **fault tolerance**, and **data security** while maintaining low latency and high availability.
 
 ---
 
-## 📋 **Table of Contents**
+## **Table of Contents**
 
 1. [Overview](#overview)
 2. [Functional Requirements (FRs)](#functional-requirements-frs)
@@ -18,7 +17,7 @@ This repository contains the architecture, design principles, and implementation
 
 ---
 
-## 🚀 **Overview**
+## **Overview**
 
 The payments system is designed to:
 1. Seamlessly process millions of transactions daily.
@@ -57,7 +56,7 @@ The payments system is designed to:
 
 ---
 
-## 🛠️ **Non-Functional Requirements (NFRs)**
+## **Non-Functional Requirements (NFRs)**
 
 1. **Scalability**: Handle millions of transactions per day with horizontal scaling.
 2. **Resiliency & Fault Tolerance**: Ensure high availability (99.99% uptime) with retries, dead-letter queues (DLQs), and failover mechanisms.
@@ -68,7 +67,7 @@ The payments system is designed to:
 
 ---
 
-## 🌟 **APIs**
+## **APIs**
 
 ### Key APIs:
 1. `POST /payments`: Initiate a payment request.
@@ -107,7 +106,7 @@ Response:
 
 ---
 
-## 📂 **Entities and Database Design**
+## **Entities and Database Design**
 
 ### Core Entities
 
@@ -140,7 +139,7 @@ CREATE TABLE Ledger (
 
 ---
 
-## 🔧 **High-Level Design (HLD)**
+## **High-Level Design (HLD)**
 
 ### Components:
 
@@ -157,7 +156,7 @@ CREATE TABLE Ledger (
 
 ---
 
-## 📈 **Deep Dives**
+## **Deep Dives**
 
 ### Resiliency & Fault Tolerance:
 1. Use Kafka as the messaging backbone with Dead-Letter Queues (DLQs) for failed events.
@@ -170,13 +169,13 @@ CREATE TABLE Ledger (
 
 ---
 
-## 🎨 Excalidraw Whiteboard
+## Excalidraw Whiteboard
 
 For a visual representation of the architecture, view the interactive diagram on [Excalidraw](https://excalidraw.com/#json=7OW2w2VcMdIInEpBQFU6c,SImXIgdwjOr6IWeg6y18Hg).
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
 
